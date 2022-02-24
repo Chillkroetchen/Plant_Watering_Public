@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Dirk\Documents\PlatformIO\Projects\Plant_Watering\Test_PCBs\Multiplex_MOSFET\Multiplex_MOSFET.kicad_sch</source>
+    <date>27/07/2022 14:48:18</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Plant Watering</title>
+        <company/>
+        <rev>1</rev>
+        <date>2022-03-16</date>
+        <source>Multiplex_MOSFET.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D3">
+      <value>SS54</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="LCSC">C22452</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C22452"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23f71c98-7f8b-4542-8085-7737e384c7a6</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>SS54</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="LCSC">C22452</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C22452"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>683999d8-c584-4bfc-aaaa-e0dd00cabc8d</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>SS54</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="LCSC">C22452</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C22452"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc523005-2009-4ad5-8345-d7872605c05f</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>SS54</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="LCSC">C22452</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C22452"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4949ce0-196f-4b62-8f08-42d1cfc09027</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>CD4051BM96</value>
+      <footprint>SamacSys_Parts:SOIC127P600X175-16N</footprint>
+      <fields>
+        <field name="Description">HEF4051B - 8-channel analog multiplexer/demultiplexer@en-us</field>
+        <field name="Height">1.75</field>
+        <field name="LCSC">C21379</field>
+        <field name="Manufacturer_Part_Number">CD4051BM96</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="HEF4051BT,653" description="HEF4051B - 8-channel analog multiplexer/demultiplexer@en-us"/>
+      <property name="Description" value="HEF4051B - 8-channel analog multiplexer/demultiplexer@en-us"/>
+      <property name="Height" value="1.75"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value=""/>
+      <property name="Manufacturer_Part_Number" value="CD4051BM96"/>
+      <property name="LCSC" value="C21379"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6d92173-f934-4533-ae16-7df1ec6f6765</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ff09937-3dcc-46c3-ba25-a620400a81df</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f970bbd-35bb-4c0d-8109-cb47a50ef01c</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbc59be3-45d4-49e9-a69a-85b2f92598ad</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e213352-d298-495a-8144-750cac778a25</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80aab046-8e5b-4157-b5be-520ab0622e01</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a8f8d35-71df-4488-9d89-ba91a33ecfd8</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0916750-84c1-4980-8ac9-7fcfb79f1ef8</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e1610e0-9774-404a-a02c-a664a99f5a0e</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0a70090-e644-43f8-831f-271a7afeca07</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d06b8cd8-8ed7-4d0c-aa43-244d1e1b83ef</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b862fe6c-a7c4-4e07-859f-0b48793c50b0</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9f8e974-8bc4-46d6-b559-33e72c76b929</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x01_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86f85261-8506-4393-ab27-1e190b9d8c92</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>Conn_01x01_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb2fcb57-eb34-4091-9575-2f36d1995500</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>Conn_01x01_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb64925b-2eee-4587-a318-c45d7aa3b9fd</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>Conn_01x01_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3f16911-489c-4154-8da0-fec2017415e9</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>Conn_01x01_Female</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b164d08-ebec-4bed-9273-e2a0f5fe7e86</tstamps>
+    </comp>
+    <comp ref="J18">
+      <value>Conn_01x01_Female</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f2a6652-6149-467c-ac5c-ab1b7bcae587</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C20917</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC" value="C20917"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b5f7c0f-81a1-4d66-aa03-e5145c635b67</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C20917</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC" value="C20917"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5bd54ffb-027b-4f2f-83e8-036998870a35</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C20917</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC" value="C20917"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04fac581-aaa2-4e53-a88c-906ce355f886</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C20917</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC" value="C20917"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0c37596-6dfa-4de0-b36e-9730eadee41b</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17408</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3ef2456-c9df-459e-a989-f7266e1e0394</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17408</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1195ccd8-3742-46a6-ad73-60c1988000a6</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17408</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ad13f51-9eda-4984-a634-9889759a3df5</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17408</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81ea2786-5d0c-4335-9e3e-ef74431a8864</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17514</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17514"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>baf9ecc9-2c9f-45e7-abd3-125411520de6</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17514</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17514"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3b8539b-3bea-4e6a-98e7-24baac248a47</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17514</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17514"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>427d6ea8-edf7-446b-8f46-f31d71ac22b1</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17514</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17514"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Multiplex_MOSFET.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00557b03-9ac7-4db5-bd3b-b3dfa0d1e9ff</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Female">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x01_Male">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="HEF4051BT,653">
+      <description>HEF4051B - 8-channel analog multiplexer/demultiplexer@en-us</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/HEF4051B.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">HEF4051BT,653</field>
+        <field name="Footprint">SOIC127P600X175-16N</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/HEF4051B.pdf</field>
+        <field name="Description">HEF4051B - 8-channel analog multiplexer/demultiplexer@en-us</field>
+        <field name="Height">1.75</field>
+        <field name="Mouser Part Number">771-HEF4051BTD-T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/HEF4051BT653?qs=me8TqzrmIYWoNumSZf8zVw%3D%3D</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">HEF4051BT,653</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Y4" type="passive"/>
+        <pin num="2" name="Y6" type="passive"/>
+        <pin num="3" name="Z" type="passive"/>
+        <pin num="4" name="Y7" type="passive"/>
+        <pin num="5" name="Y5" type="passive"/>
+        <pin num="6" name="~{E}" type="passive"/>
+        <pin num="7" name="VEE" type="passive"/>
+        <pin num="8" name="VSS" type="passive"/>
+        <pin num="9" name="S3" type="passive"/>
+        <pin num="10" name="S2" type="passive"/>
+        <pin num="11" name="S1" type="passive"/>
+        <pin num="12" name="Y3" type="passive"/>
+        <pin num="13" name="Y0" type="passive"/>
+        <pin num="14" name="Y1" type="passive"/>
+        <pin num="15" name="Y2" type="passive"/>
+        <pin num="16" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="AO3400A">
+      <description>30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3400A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/Program Files/KiCad/6.0/share/kicad/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3V3">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="2" name="5V">
+      <node ref="IC1" pin="16" pinfunction="VDD" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="3" name="24V">
+      <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="~{E}" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="VEE" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="VSS" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="IO0">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="6" name="IO1">
+      <node ref="IC1" pin="11" pinfunction="S1" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="7" name="IO2">
+      <node ref="IC1" pin="10" pinfunction="S2" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="8" name="IO3">
+      <node ref="IC1" pin="9" pinfunction="S3" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="9" name="IOZ">
+      <node ref="IC1" pin="3" pinfunction="Z" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Y0">
+      <node ref="IC1" pin="13" pinfunction="Y0" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="19" name="Y1">
+      <node ref="IC1" pin="14" pinfunction="Y1" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="20" name="Y2">
+      <node ref="IC1" pin="15" pinfunction="Y2" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="21" name="Y3">
+      <node ref="IC1" pin="12" pinfunction="Y3" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="22" name="Y4">
+      <node ref="IC1" pin="1" pinfunction="Y4" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Y5">
+      <node ref="IC1" pin="5" pinfunction="Y5" pintype="passive"/>
+      <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Y6">
+      <node ref="IC1" pin="2" pinfunction="Y6" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Y7">
+      <node ref="IC1" pin="4" pinfunction="Y7" pintype="passive"/>
+      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+  </nets>
+</export>

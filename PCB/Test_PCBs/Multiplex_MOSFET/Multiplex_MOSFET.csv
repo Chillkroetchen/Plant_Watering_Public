@@ -1,0 +1,11 @@
+Comment,Designator,Footprint,LCSC
+"SS54","D3,D4,D5,D6","Diode_SMD:D_SMA","C22452"
+"CD4051BM96","IC1","SamacSys_Parts:SOIC127P600X175-16N","C21379"
+"Conn_01x02_Male","J1,J2,J3,J4,J5,J6","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",""
+"Conn_01x01_Male","J13,J14,J15,J16","Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical",""
+"Conn_01x01_Female","J17,J18","MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad",""
+"Conn_01x03_Male","J7,J9,J10,J11,J12","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",""
+"Conn_01x03_Male","J8","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",""
+"AO3400A","Q1,Q2,Q3,Q4","Package_TO_SOT_SMD:SOT-23","C20917"
+"100","R10,R11,R12,R13","Resistor_SMD:R_0805_2012Metric","C17408"
+"1M","R20,R21,R22,R23","Resistor_SMD:R_0805_2012Metric","C17514"
