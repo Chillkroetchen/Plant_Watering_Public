@@ -9,3 +9,6 @@ src/userConfig.h
 
 # ignore macOS Finder configuration storage files
 **/.DS_Store
+
+# ignore .clang-format file
+.clang-format
