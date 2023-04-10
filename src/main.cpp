@@ -1,4 +1,3 @@
-
 #include <Adafruit_GFX.h>
 #include <Adafruit_I2CDevice.h>
 #include <Adafruit_SSD1306.h>
@@ -18,114 +17,40 @@
 #include <WiFiClientSecure.h>
 #include <Wire.h>
 #include <time.h>
+#include <userConfig.h>
 
-#define SCREEN_WIDTH 128 // OLED display width, in pixels
-#define SCREEN_HEIGHT 64 // OLED display height, in pixels
-#define DHTPIN 14        // Digital pin connected to the DHT sensor
-#define MoisturePin1 34  // Analog pin connected to the Analog sensor1
-#define MoisturePin2 35  // Analog pin connected to the Analog sensor2
-#define MoisturePin3 0
-#define MoisturePin4 0
-#define MoisturePin5 0
-#define MoisturePin6 0
-#define DHTTYPE DHT22 // DHT 22 (AM2302)
-#define BOTtoken                                                               \
-  "" // your Bot Token (Get from
-                                                   // Botfather)
-#define CHAT_ID ""                       // Telegram Group ID
-#define REDLED 16   // Digital pin connected to red LED
-#define GREENLED 15 // Digital pin connected to green LED
-#define ButtonPin 39
 #define EARLY 0 // Definitions for DeepSleep States
 #define LATE 1
 
-enum TelegramNotificationLevel { TNL_Off, TNL_Warnings, TNL_All };
-
-// User Settings
-const enum TelegramNotificationLevel TELEGRAM_NOTIFICATION_LEVEL_DEFAULT =
-    TNL_All; // Sets level of Telegram Notifications
 enum TelegramNotificationLevel TELEGRAM_NOTIFICATION_LEVEL;
-const bool enableDeepSleep = 0; // Enable DeepSleep | 0 = disabled; 1 = enabled
-const bool enableWeather = 1;   // Enable Watering depending on weatherforecast
-                                // 0 = disabled; 1 = enabled
-const bool enableMQTT = 1;      // Enable MQTT | 0 = disabled; 1 = enabled
-const int moistureSensorCount = 2; // Number of Moisture Sensors used
-const int maxReconnect = 5;        // maximum amount of reconnects
-
-// Soil Moisture Definitions
-const int airValueDefault = 2330; // moisture calibration point air
 int airValue;
-const int waterValueDefault = 380; // moisture calibration point water
 int waterValue;
-const int moistureDelayDefault = 3600; // measure moisture every X seconds
 int moistureDelay;
-const int pumpTimeDefault = 5; // run pump for X seconds
 int pumpTime;
 unsigned long lastPumped;
 unsigned long lastMoistureRead;
 int soilMoisturePercent[moistureSensorCount]; // SoilMoisture percentage value
 int soilMoistureAnalog[moistureSensorCount];  // SoilMoisture analog value
-const int moistureThreshDefault = 30; // SoilMoisture threshold for watering
 int moistureThresh;
-
-// WIFI Settings
-const char *ssid = "";         // SSID
-const char *password = ""; // Password
-
-// MQTT Settings
-const char *mqttServer = "";
-const int mqttPort = ;
-const char *mqttUser = "";
-const char *mqttPassword = "";
-const char *mqttUserID = "";
-const int mqttDelay = 1; // Publish to MQTT every X seconds
 unsigned long lastMQTT;
-
-// OpenWeatherMap Settings
-String openWeatherMapApiKey = "";
-String CoordLat = "";
-String CoordLon = "";
 String jsonBuffer;
 bool weatherRequest = false;
-const int precipationThreshold =
-    3; // Sets threshold in mm to decide for watering
-
-// Telegram bot settings
-const int botRequestDelay = 1; // Checks for new messages every 1 second.
 unsigned long lastTimeBotRan;
-
-// Time receive settings
-const char *ntpServer = "pool.ntp.org"; // time receive URL
-const long gmtOffset_sec = 3600;     // GMT offset in seconds (3600 for Germany)
-const int daylightOffset_sec = 3600; // Daylight Savings offset in seconds
-const int timeReadingDelay = 60;     // Reads time every X seconds
 unsigned long lastTimeRead;
-
-// Button definitions
 int buttonState;
 int lastButtonState = LOW;
 unsigned long debounceDelay = 50;
 unsigned long lastDebounce;
-
-const int oneWireBus = 4;    // GPIO where the DS18B20 is connected to
 float temperatureC;          // Temperature in Celsius
 const int MS_TO_S = 1000;    // ms in s conversion factor
 const int US_TO_S = 1000000; // us in s conversion factor
 bool pumpRunning = false;    // Pump state
 bool moistureUpdate = false; // Trigger for Moisture Sensor read state
 int pumpCount;
-float t;                 // DHT temp value
-float h;                 // DHT humidity value
-const int OLEDdelay = 1; // Write OLED every X seconds
+float t; // DHT temp value
+float h; // DHT humidity value
 unsigned long lastOLEDWrite;
-const int sensorDelay = 5; // Read sensors every X seconds
 unsigned long lastSensorRead;
-
-int wakeupH = 4;        // Hour to wake up in the morning
-int wakeupMin = 30;     // Minute to wake up in the morning
-int wakeupHlate = 20;   // Hour to wake up in the evening
-int wakeupMinlate = 30; // Minute to wake up in the evening
-int timeAwake = 1800;   // Time awake after Wakeup in seconds
 unsigned long lastWakeup;
 int sleepH;
 int sleepMin;
