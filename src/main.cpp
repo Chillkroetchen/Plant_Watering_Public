@@ -1,5 +1,6 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_I2CDevice.h>
+#include <Adafruit_INA260.h>
 #include <Adafruit_SSD1306.h>
 #include <Adafruit_Sensor.h>
 #include <Arduino.h>
