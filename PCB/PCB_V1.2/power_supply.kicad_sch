@@ -1669,7 +1669,7 @@
     (property "Reference" "R19" (id 0) (at 87.63 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100" (id 1) (at 82.55 88.9 90)
+    (property "Value" "20" (id 1) (at 82.55 88.9 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 84.328 90.17 90)

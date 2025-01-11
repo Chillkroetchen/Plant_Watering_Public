@@ -1398,7 +1398,7 @@
       (reference "R18") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d5909329-838c-4f3e-b5a5-77ce3372214b/96a5741a-2b40-4514-b241-163f17bca132"
-      (reference "R19") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R19") (unit 1) (value "20") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/d5909329-838c-4f3e-b5a5-77ce3372214b/83d0fd57-b23b-4bdb-97d2-51b5f956a3b3"
       (reference "R20") (unit 1) (value "3.6k") (footprint "Resistor_SMD:R_0805_2012Metric")
